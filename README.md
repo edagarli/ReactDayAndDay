@@ -1,5 +1,5 @@
 # ReactNativeDayAndDay
-A self-taught project to learn React-Native.(Including a lot of Third-party reference resources)
+A self-taught project to learn React-Native.(Including Third-party reference resources)
 
 ## Project Index ##
 
