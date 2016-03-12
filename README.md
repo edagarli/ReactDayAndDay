@@ -15,3 +15,9 @@ Day 02 - BasicExercises
 
 ![Alt text](https://github.com/edagarli/ReactNativeDayAndDay/blob/master/Day02BasicExercises%2FDay02-1.png)![Alt text](https://github.com/edagarli/ReactNativeDayAndDay/blob/master/Day02BasicExercises%2FDay02-2.png)
 
+Day 03 - Day03LayoutExercises
+
++ [Project 03: Day03LayoutExercises](https://github.com/edagarli/ReactNativeDayAndDay/tree/master/Day03LayoutExercises)
+
+![Alt text](https://github.com/edagarli/ReactNativeDayAndDay/blob/master/Day03LayoutExercises%2FDay03-1.png)
+
