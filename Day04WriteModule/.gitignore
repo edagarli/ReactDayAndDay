@@ -1,7 +1,9 @@
 # OSX
 #
 .DS_Store
-
+.idea/
+*.xml
+*.iml
 # Xcode
 #
 build/
