@@ -1,0 +1,3 @@
+rootProject.name = 'Day04WriteModule'
+
+include ':app'

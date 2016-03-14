@@ -22,3 +22,9 @@ Day 03 - Day03LayoutExercises
 + [Project 03-2: Day03LayoutExercisesTwo](https://github.com/edagarli/ReactNativeDayAndDay/tree/master/Day03LayoutExercisesTwo)
 
 ![Alt text](https://github.com/edagarli/ReactNativeDayAndDay/blob/master/Day03LayoutExercises%2FDay03-1.png)![Alt text](https://github.com/edagarli/ReactNativeDayAndDay/blob/master/Day03LayoutExercisesTwo%2FDay03-2.png)
+
+Day 04 - WriteModule
+
++ [Project 04: WriteModule](https://github.com/edagarli/ReactNativeDayAndDay/tree/master/Day04WriteModule)
+
+![Alt text](https://github.com/edagarli/ReactNativeDayAndDay/blob/master/Day04WriteModule%2FDay04-1.png)
