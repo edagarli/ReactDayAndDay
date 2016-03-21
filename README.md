@@ -31,5 +31,5 @@ Day 06 - ListViewLoadMore
 
 + [Project 05: React-Douban](https://github.com/edagarli/ReactNativeDayAndDay/tree/master/Day06ListViewLoadMore)
 
-![Alt text](https://github.com/edagarli/ReactNativeDayAndDay/tree/master/Day06ListViewLoadMore/day06.gif)
+![Alt text](https://github.com/edagarli/ReactNativeDayAndDay/blob/master/Day06ListViewLoadMore%2Fday06.gif)
 
