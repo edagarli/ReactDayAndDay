@@ -1,0 +1,3 @@
+rootProject.name = 'Day07RefreshableListView'
+
+include ':app'

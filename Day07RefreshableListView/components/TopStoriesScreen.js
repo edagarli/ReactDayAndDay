@@ -1,0 +1,89 @@
+/**
+ * Created by edagarli on 16/3/22.
+ * https://github.com/edagarli
+ */
+
+var _ = require('underscore')
+var React = require('react-native')
+var {
+    ListView,
+    StyleSheet,
+    } = React
+var RefreshableListView = require('react-native-refreshable-listview')
+
+var TopStory = require('../stores/TopStory')
+var View = require('./View')
+var Text = require('./Text')
+var StoreWatchMixin = require('./StoreWatchMixin')
+var StoryListItem = require('./StoryListItem')
+var Loading = require('./Loading')
+
+
+var baseDataSource = new ListView.DataSource({rowHasChanged: (r1, r2) => r1.id !== r2.id})
+
+var TopStoriesScreen = React.createClass({
+    mixins: [
+        StoreWatchMixin,
+    ],
+    getInitialState() {
+        return {
+            dataSource: baseDataSource.cloneWithRows(this.getTopStories()),
+        }
+    },
+    componentDidMount() {
+        var topStories = this.getTopStories()
+        if (!(topStories && topStories.length)) this.loadTopStories()
+    },
+    getStoreWatches() {
+        this.watchStore(TopStory, _.debounce(() => {
+            if (this.isMounted()) {
+                this.setState({dataSource: baseDataSource.cloneWithRows(this.getTopStories())})
+            }
+        }, 100))
+    },
+    loadTopStories() {
+        return TopStory.fetch()
+    },
+    getTopStories() {
+        return TopStory.ordered()
+    },
+    renderStory(story) {
+        return (
+            <StoryListItem
+                story={story}
+            />
+        )
+    },
+    renderStoriesListView() {
+        if (this.state.dataSource.getRowCount() === 0) {
+            return (
+                <Loading>top stories</Loading>
+            )
+        } else {
+            return (
+                <RefreshableListView
+                    dataSource={this.state.dataSource}
+                    renderRow={this.renderStory}
+                    loadData={this.loadTopStories}
+                    refreshDescription="Refreshing top stories"
+                    refreshingIndictatorComponent={
+                          <RefreshableListView.RefreshingIndicator stylesheet={indicatorStylesheet} />
+                    }
+                />
+            )
+        }
+    },
+    render() {
+        return this.renderStoriesListView()
+    }
+})
+
+var indicatorStylesheet = StyleSheet.create({
+    wrapper: {
+        backgroundColor: '#ffffff',
+        height: 60,
+        marginTop: 10,
+    },
+})
+
+module.exports = TopStoriesScreen
