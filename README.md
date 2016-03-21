@@ -26,3 +26,10 @@ Day 05 - AppExercises
 + [Project 05: React-Douban](https://github.com/edagarli/React-Douban/)
 
 ![Alt text](https://github.com/edagarli/React-Douban/blob/master/douban.gif)
+
+Day 06 - ListViewLoadMore
+
++ [Project 05: React-Douban](https://github.com/edagarli/ReactNativeDayAndDay/tree/master/Day06ListViewLoadMore)
+
+![Alt text](https://github.com/edagarli/ReactNativeDayAndDay/tree/master/Day06ListViewLoadMore/day06.gif)
+

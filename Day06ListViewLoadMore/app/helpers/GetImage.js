@@ -1,0 +1,24 @@
+/**
+ * Created by edagarli on 16/3/21.
+ * https://github.com/edagarli
+ */
+
+'use strict';
+
+module.exports = {
+    shotImage: function(shot: Object): {uri: string} {
+        var uri = shot.images.normal ? shot.images.normal : shot.images.teaser;
+        return {uri};
+    },
+    authorAvatar: function(player: Object): {uri: string} {
+        var uri;
+        if (player) {
+            uri = player.avatar_url;
+            return {uri};
+        } else {
+            uri = require('../../img/AuthorAvatar.png');
+            return uri;
+        }
+    }
+}
+
