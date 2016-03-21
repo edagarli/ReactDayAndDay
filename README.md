@@ -45,5 +45,5 @@ RefreshListView
 
 Weibo: [@edagarli](http://weibo.com/edagarli)
 
-Telegram [@edagarli]
+Telegram: @edagarli
 
