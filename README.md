@@ -1,5 +1,5 @@
 # ReactNativeDayAndDay
-A self-taught project to learn React-Native.
+A self-taught project to learn React-Native, I made a decision to put my every single day to write ReactNative(Day and Day).
 
 ## Project Index ##
 
@@ -32,4 +32,18 @@ Day 06 - ListViewLoadMore
 + [Project 06: Day06ListViewLoadMore](https://github.com/edagarli/ReactNativeDayAndDay/tree/master/Day06ListViewLoadMore)
 
 ![Alt text](https://github.com/edagarli/ReactNativeDayAndDay/blob/master/Day06ListViewLoadMore%2Fday06.gif)
+
+## What's next? ##
+
+RefreshListView
+
+## License ##
+
+[React Day And Day](https://github.com/edagarli/ReactNativeDayAndDay) is under the MIT license.
+
+## Reach me ##
+
+Weibo: [@edagarli](http://weibo.com/edagarli)
+
+Telegram [@edagarli]
 
