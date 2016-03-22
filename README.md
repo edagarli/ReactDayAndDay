@@ -52,5 +52,7 @@ Picture App
 
 Weibo: [@edagarli](http://weibo.com/edagarli)
 
+Twitter [@edagarli](http://twitter.com/edagarli)
+
 Telegram: @edagarli
 
