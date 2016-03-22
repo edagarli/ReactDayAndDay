@@ -42,7 +42,7 @@ Day 07 - RefreshableListView
 
 ## What's next? ##
 
-Thinking...
+Picture App
 
 ## License ##
 
