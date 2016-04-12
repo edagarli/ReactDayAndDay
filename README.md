@@ -40,9 +40,16 @@ Day 07 - RefreshableListView
 
 ![Alt text](https://github.com/edagarli/ReactNativeDayAndDay/blob/master/Day07RefreshableListView%2Fday07.gif)
 
+Day 08 - DrawerDemo
+
++ [Project 08: Day08DrawerDemo](https://github.com/edagarli/ReactNativeDayAndDay/tree/master/Day08DrawerDemo)
+
+![Alt text](https://github.com/edagarli/ReactNativeDayAndDay/blob/master/Day08DrawerDemo%2Fday08.jpg)
+
+
 ## What's next? ##
 
-Picture App
+thinking...
 
 ## License ##
 
